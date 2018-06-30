@@ -1,0 +1,58 @@
+* TODO
+** Features
+*** Ultra-minimum Demo/Hackathon Version
+**** dev android application running on phone
+     Application just running on my phone per
+     https://developer.android.com/training/basics/firstapp/running-app
+**** print QR Hiro marker for demo
+**** no setup, only main view (camera viewfinder)
+**** recognize QR code hiro in view
+**** download public ssb feed using QR code
+**** augment view with voice bubble showing most recent message
+**** go back and forward through feed
+**** post message to feed
+**** run mobile app in background to accept ssb requests
+*** Minimum Generally Usable Version
+**** Scuttlepin website
+***** Client-side generation of ssb pub/priv keys
+***** Generate buttons for DIY pin making
+***** Instructions for making your own pins
+***** Instructions for ordering buttons
+****** Password-encrypted private key is emailed to user directly
+**** Android application in google play store
+***** Initial Setup Flow
+****** I have a pin
+******* Scan/enter private key from email or saved
+******* Enter password for private key
+****** I don't have a pin
+       Go through same pin setup process as described under
+       "scuttlepin website"
+**** Make physical pins
+*** Later Versions
+**** Feed Privacy Settings
+***** Public feed (default)
+***** Private feed with autoaccept if geolocation nearby
+***** Private feed with autoaccept
+***** Private feed with manual acceptance
+***** Customizable requirements/filters for autoaccepting
+      For example having mutual contacts
+**** Immersive social interaction features
+**** Notification settings
+** Actions
+   + First Version [0%]
+     - [ ] get ssb-nodejs-mobile running in emulator
+     - [ ] get renatal to work with nodejs-mobile-react-native
+     - [ ] alternatively get clojurescript working with
+       nodejs-mobile-react-native without use of renatal
+     - [ ] get AR.js working in clojurescript reactive native app
+     - [ ] generate ssb keypair and use it in mobile app
+     - [ ] demonstrate ssb connection from phone to computer
+     - [ ] generate QR code for ssb connection
+     - [ ] print out 2 QR code Hiro marker to to demo with a person
+       who has a feed and a person seeing it and vice versa
+     - [ ] UI for posting a message
+     - [ ] post message to ssb feed as JSON with version and client
+     - [ ] recognize hiro/QR in view
+     - [ ] augment marker with message from feed
+     - [ ] UI for seeing next and previous messages
+     - [ ] run mobile app on phone

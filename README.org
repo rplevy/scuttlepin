@@ -1,0 +1,36 @@
+* scuttlepin
+
+  In-person social feeds via SSB protocol + wearable QR code pins
+
+** technical design overview
+
+   [[https://github.com/ssbc/secure-scuttlebutt][Secure Scuttlebutt]] is a protocol for distributed p2p social
+   exchange of immutable append-only data.  The [[https://github.com/luandro/ssb-nodejs-mobile][ssb-nodejs-mobile]]
+   project brings this agent-centered data infrastructure to mobile
+   applications.  Via the emerging [[https://github.com/jeromeetienne/AR.js/blob/master/README.md][WebAR/WebXR]] standards, a react
+   native application can take advantage of the immediate environment.
+   In this case we'll use physically pinned QR markers to allow the
+   mobile device's camera view to augment peers with recent messages
+   they have posted to their feed.  And finally, to make things easier
+   on ourselves, we're doing all of this using [[https://clojurescript.org/][ClojureScript]].
+
+** motivation
+
+   This simple proof-of-concept is intended to set the stage for
+   further experimentation in successive versions and/or forks.  With
+   an in-personal social network using p2p and immersive tech, a lot
+   of interesting things become possible!
+
+** build instructions
+
+   TBD
+
+** usage
+
+   TBD (see [[TODO.org][TODO items]])
+
+** license
+
+Copyright 2018
+
+MIT License
