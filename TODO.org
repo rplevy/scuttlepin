@@ -39,11 +39,17 @@
 **** Immersive social interaction features
 **** Notification settings
 ** Actions
-   + First Version [0%]
-     - [ ] get ssb-nodejs-mobile running in emulator
-     - [ ] get renatal to work with nodejs-mobile-react-native
+   + Demo Version [6%]
+     - [X] get ssb-nodejs-mobile running on emulator
+       + there are problems getting it to work on emulator, but got at
+         least the app to load on phone
+       + the ssb-nodejs-mobile react native app runs but it will
+         require some further development to be useful
+     - [ ] try out staltz/mmmmm-mobile as alternative to
+       ssb-nodejs-mobile as basis for development
+     - [ ] get renatal to work with mobile-nodejs/reactive native
      - [ ] alternatively get clojurescript working with
-       nodejs-mobile-react-native without use of renatal
+       mobile-nodejs/react-native without use of renatal
      - [ ] get AR.js working in clojurescript reactive native app
      - [ ] generate ssb keypair and use it in mobile app
      - [ ] demonstrate ssb connection from phone to computer

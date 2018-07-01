@@ -5,14 +5,15 @@
 ** technical design overview
 
    [[https://github.com/ssbc/secure-scuttlebutt][Secure Scuttlebutt]] is a protocol for distributed p2p social
-   exchange of immutable append-only data.  The [[https://github.com/luandro/ssb-nodejs-mobile][ssb-nodejs-mobile]]
-   project brings this agent-centered data infrastructure to mobile
-   applications.  Via the emerging [[https://github.com/jeromeetienne/AR.js/blob/master/README.md][WebAR/WebXR]] standards, a react
-   native application can take advantage of the immediate environment.
-   In this case we'll use physically pinned QR markers to allow the
-   mobile device's camera view to augment peers with recent messages
-   they have posted to their feed.  And finally, to make things easier
-   on ourselves, we're doing all of this using [[https://clojurescript.org/][ClojureScript]].
+   exchange of immutable append-only data.  Experimental work has been
+   done on getting ssb running under mobile-nodejs, which brings this
+   agent-centered data infrastructure to mobile applications.  Via the
+   emerging [[https://github.com/jeromeetienne/AR.js/blob/master/README.md][WebAR/WebXR]] standards, a react native application can take
+   advantage of the immediate environment.  In this case we'll use
+   physically pinned QR markers to allow the mobile device's camera
+   view to augment peers with recent messages they have posted to
+   their feed.  And finally, to make things easier on ourselves, we're
+   doing all of this using [[https://clojurescript.org/][ClojureScript]].
 
 ** motivation
 
