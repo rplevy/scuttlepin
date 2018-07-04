@@ -39,26 +39,27 @@
 **** Immersive social interaction features
 **** Notification settings
 ** Actions
-   + Demo Version [6%]
+   + Demo Version [20%]
      - [X] get ssb-nodejs-mobile running on emulator
        + there are problems getting it to work on emulator, but got at
          least the app to load on phone
        + the ssb-nodejs-mobile react native app runs but it will
          require some further development to be useful
-     - [ ] try out staltz/mmmmm-mobile as alternative to
+     - [X] try out staltz/mmmmm-mobile as alternative to
        ssb-nodejs-mobile as basis for development
+       + got mmmmmm-mobile working on devices!
+     - [X] demonstrate ssb connection from phone to computer
      - [ ] get renatal to work with mobile-nodejs/reactive native
-     - [ ] alternatively get clojurescript working with
-       mobile-nodejs/react-native without use of renatal
      - [ ] get AR.js working in clojurescript reactive native app
      - [ ] generate ssb keypair and use it in mobile app
-     - [ ] demonstrate ssb connection from phone to computer
-     - [ ] generate QR code for ssb connection
+     - [ ] generate QR code for public key
      - [ ] print out 2 QR code Hiro marker to to demo with a person
        who has a feed and a person seeing it and vice versa
      - [ ] UI for posting a message
      - [ ] post message to ssb feed as JSON with version and client
      - [ ] recognize hiro/QR in view
+     - [ ] match public key with ssb message that was broadcast to
+       WiFi network
      - [ ] augment marker with message from feed
      - [ ] UI for seeing next and previous messages
      - [ ] run mobile app on phone

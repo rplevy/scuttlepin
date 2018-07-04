@@ -6,7 +6,7 @@
 
    [[https://github.com/ssbc/secure-scuttlebutt][Secure Scuttlebutt]] is a protocol for distributed p2p social
    exchange of immutable append-only data.  Experimental work has been
-   done on getting ssb running under mobile-nodejs, which brings this
+   done on [[https://gitlab.com/staltz/mmmmm-mobile][getting ssb running under mobile-nodejs]], which brings this
    agent-centered data infrastructure to mobile applications.  Via the
    emerging [[https://github.com/jeromeetienne/AR.js/blob/master/README.md][WebAR/WebXR]] standards, a react native application can take
    advantage of the immediate environment.  In this case we'll use
